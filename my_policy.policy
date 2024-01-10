@@ -1,0 +1,6 @@
+grant {
+    permission java.lang.RuntimePermission "createSecurityManager";
+    permission java.lang.RuntimePermission "setSecurityManager";
+    permission java.lang.RuntimePermission "accessClassInPackage.jdk.internal.misc";
+    permission java.io.FilePermission "D:\\test.txt", "read,write";
+};
